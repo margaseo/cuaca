@@ -1,1 +1,70 @@
+/* ====== GLOBAL STYLE ====== */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f2f5f7;
+  color: #222;
+}
 
+/* ====== HEADING ====== */
+h3 {
+  text-align: center;
+  margin-top: 20px;
+  color: #004e89;
+}
+
+h4, h5 {
+  text-align: center;
+  margin: 5px 0;
+  color: #333;
+}
+
+/* ====== MAP STYLE ====== */
+iframe {
+  display: block;
+  margin: 15px auto;
+  border-radius: 10px;
+  border: 2px solid #004e89;
+  max-width: 900px;
+}
+
+/* ====== TABLE STYLE ====== */
+table {
+  width: 90%;
+  max-width: 900px;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+table th {
+  background: #004e89;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+}
+
+table td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+/* Warna baris selang-seling */
+table tr:nth-child(even) {
+  background: #e9f3fa;
+}
+
+/* Hover effect */
+table tr:hover {
+  background: #d4ecff;
+  transition: 0.2s;
+}
+
+/* ====== FOOTER ====== */
+p {
+  font-size: 14px;
+  color: #444;
+}
